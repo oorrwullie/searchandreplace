@@ -2,6 +2,7 @@
 Recursively search files or filenames and replace text excluding the node_modules, .git, .idea, .vscode and .svn directories and bundle.js and DS_Store files.
 
 ### Usage
+```
   --dir string
     	Directory to search
   --file
@@ -12,6 +13,7 @@ Recursively search files or filenames and replace text excluding the node_module
     	Text to search for
   --text
     	Search and replace text
+```
   #### Example
   `searchAndReplace --text --search "foo" --replace "bar" --dir .`
   
